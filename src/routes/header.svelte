@@ -1,25 +1,26 @@
 <script lang="ts">
     import * as config from "$lib/config"
+    import Toggle from './togle.svelte'
 </script>
 
 <nav>
     <a href="/" class="title">
-        <b>{config.title}</b>
+        <b>Sambok's svelte blog</b>
     </a>
 
     <ul class="links">
         <li>
-            <a href="/about">About</a>
+            <a href="https://3boku.me">About</a>
         </li>
         <li>
-            <a href="/contact">Contact</a>
+            <a href="https://linktr.ee/3boku">Contact</a>
         </li>
         <li>
-            <a href="/rss.xml">RSS</a>
+            <a href="/post">Post</a>
         </li>
     </ul>
 
-    <button>Toggle</button>
+    <Toggle />
 </nav>
 
 <style>

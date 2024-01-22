@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-    <title>{config.title}</title>
+    <title>Sambok's svelte blog</title>
 </svelte:head>
 
 <section>

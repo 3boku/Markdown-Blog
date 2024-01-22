@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-    <p>{config.title} &copy {new Date().getFullYear()}</p>
+    <p>3boku &copy {new Date().getFullYear()}</p>
 </footer>
 
 <style>
